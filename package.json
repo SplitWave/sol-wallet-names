@@ -1,0 +1,61 @@
+{
+  "name": "@splitwave/sol-wallet-names",
+  "version": "2.1.0",
+  "description": "Resolves Solana wallet names (.abc, .backpack, .bonk, .glow, .sol, and .poor) to wallet addresses and back.",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.mjs"
+  },
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "clean": "rm -f dist/*",
+    "build": "npm run clean && tsup --format esm",
+    "publish-new-version": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/splitwave/sol-wallet-names.git"
+  },
+  "keywords": [
+    "solana",
+    "web3",
+    "wallet name",
+    "resolve",
+    "profile picture",
+    "PFP",
+    "name service",
+    "sns",
+    "ans",
+    "username"
+  ],
+  "author": "Tim Adigwe",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jsdom": "^21.1.1",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "rollup-plugin-polyfill-node": "^0.12.0",
+    "ts-jest": "^29.1.2",
+    "tsup": "^6.7.0",
+    "typescript": "^4.9.5",
+    "vite-plugin-dts": "^2.0.2"
+  },
+  "dependencies": {
+    "@onsol/tldparser": "^0.5.3",
+    "@solana/web3.js": "^1.73.3",
+    "@solflare-wallet/pfp": "^0.1.0",
+    "axios": "^1.6.6",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.0.3"
+  }
+}
