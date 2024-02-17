@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/splitwave/sol-wallet-names.git"
+    "url": "git+https://github.com/splitwave/sol-wallet-names.git"
   },
   "keywords": [
     "solana",
@@ -57,5 +57,12 @@
     "axios": "^1.6.6",
     "crypto-browserify": "^3.12.0",
     "dotenv": "^16.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/splitwave/sol-wallet-names/issues"
+  },
+  "homepage": "https://github.com/splitwave/sol-wallet-names#readme",
+  "directories": {
+    "doc": "docs"
   }
 }
