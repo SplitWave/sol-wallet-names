@@ -1,5 +1,7 @@
 # Solana Wallet Names
 
+Updated from portal payements 
+
 [![Build status](https://github.com/Splitwave/solana-wallet-names/actions/workflows/tests.yaml/badge.svg)](https://github.com/Splitwave/solana-wallet-names/actions)
 
 This package resolves **wallet names** (like `mikemaccana.sol`) to **wallet addresses** (like `5FHwkrdxntdK24hgQU8qgBjn35Y1zwhz1GZwCkP2UJnM`) across **the entire Solana ecosystem**, including **✨8✨ different name services** and **✨5✨ different profile picture (PFP) services**. Reverse mapping (wallet addresses to names) is also supported in most cases.
